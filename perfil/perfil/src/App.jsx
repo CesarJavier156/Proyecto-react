@@ -41,13 +41,8 @@ function App() {
             </div>
             <div className="section">
               <FaIdBadge className="icon" />
-              <span className="label">Matrícula:</span>
+              <span className="label">RFID:</span>
               <span>{p.rId}</span>
-            </div>
-            <div className="section">
-              <FaBook className="icon" />
-              <span className="label">Carrera:</span>
-              <span>Ingeniería en Sistemas</span>
             </div>
             <div className="section">
               <FaVenusMars className="icon" />
@@ -62,4 +57,3 @@ function App() {
 }
 
 export default App;
-
